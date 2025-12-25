@@ -9,15 +9,6 @@
 * **翻转列表支持**: 提供 `.turboListReversed(true)`，专为聊天场景设计，无需在处理视图翻转。
 * **高度自适应**: 支持动态高度。
 
-## 📦 引入方式 (Installation)
-
-```swift
-dependencies: [
-    .package(url: "https://github.com/Yyilin001/TurboList.git", from: "1.0.0")
-]
-
-```
-
 ### 聊天场景完整示例 (Chat Scenario)
 
 ```swift
