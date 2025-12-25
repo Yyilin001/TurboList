@@ -13,7 +13,6 @@ import UIKit
 public class TurboListProxy {
      weak var tableView: UITableView?
      var idToIndexMap: [AnyHashable: Int] = [:]
-
     public func scrollToIndex(_ index: Int, anchor: TurboListScrollPosition = .bottom, animated: Bool = true) {
         guard let tv = tableView else { return }
         let rowCount = tv.numberOfRows(inSection: 0)
